@@ -1,8 +1,7 @@
 const express  = require('express');
-
-const  router = express.Router();
-
 const {infoContoller} = require('../../controllers');
+
+const router = express.Router();
 
 router.get('/info',infoContoller.info);
 
